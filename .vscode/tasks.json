@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build sender",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "sender.cpp",
+                "-o",
+                "sender"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for building sender.cpp"
+        }
+    ]
+}
